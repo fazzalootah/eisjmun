@@ -1,0 +1,212 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px;
+}
+
+.parent-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+}
+
+.child-c{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.c-title{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+text-align: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.c-desc{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.cont-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.cont-form{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 680px;
+height: 357px;
+}
+
+.formname{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    
+    width: 320px;
+    height: 53px;    
+    
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 320px;
+height: 53px;
+
+/* white */
+
+background: #FFFFFF;
+border: 2.5px solid #000000;
+width: 288px;
+height: 21px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+/* black */
+
+color: #000000;
+}
+
+.formmail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    
+    width: 320px;
+    height: 49px;
+    
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 320px;
+height: 53px;
+
+/* white */
+
+background: #FFFFFF;
+border: 2.5px solid #000000;
+
+width: 288px;
+height: 21px;
+
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+/* black */
+
+color: #000000;
+}
+
+.formmsg{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 10px;
+background: #FFFFFF;
+border: 2.5px solid #000000;
+width: 664px;
+height: 200px;
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+}
+
+.formrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+    position: relative;    
+}
+
+.formrow2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+margin-top: 20px;
+}
+
+.sendbtn{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 664px;
+height: 53px;
+
+/* red */
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+justify-content: center;
+
+/* white */
+
+color: #FFFFFF;
+background: #C21D22;
+border: 2.5px solid #000000;
+
+margin-top: 20px;
+}
