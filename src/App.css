@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-root{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35%;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: #FFFFFF;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  button{color: #FFFFFF;}
+  
+  .logo-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  align-items: center;
+  padding: 0px 10px;
+  width: auto;
+  height: auto;
+  background: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   }
-  to {
-    transform: rotate(360deg);
+  
+  a{
+  text-decoration: none;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.0125em;
+  color: #000000;
   }
-}
+
+  
+  .nav-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 20px;
+  width: auto;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+  
+  .futuramednav {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;letter-spacing: 0.0125em;
+  color: #000000;
+  }
+  
+  .sb-nav{
+  margin: 0;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+  
+  .logo{
+  width: 75px;
+  height: 75px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  @media only screen and (max-width: 960px) {
+      .nav-root{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 30%;
+          position: relative;
+          width: 100%;
+          height: 100px;
+          background: #FFFFFF;
+          }
+  }
+  
+  @media only screen and (max-width:768px) {
+      .nav-root{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 15%;
+          position: relative;
+          width: 100%;
+          height: 100px;
+          background: #FFFFFF;
+      }
+  
+  }
+
+  @media only screen and (max-width: 680px) {
+      .nav-root{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 5%;
+          position: relative;
+          width: 100%;
+          height: 100px;
+          background: #FFFFFF;
+      }
+  }
+    
+  
+  
+  @media only screen and (max-width:600px) {
+  .nav-links {
+      display: none;
+  }
+  
+  .nav-root{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 35%;
+      position: relative;
+      width: 100%;
+      height: 100px;
+      background: #FFFFFF;
+      }
+  }
