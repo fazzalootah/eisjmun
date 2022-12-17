@@ -74,7 +74,7 @@ function Home() {
               <br></br>
               <p className='sg-text'> - Tejal Gupta, Secretary General</p>
               <br></br>
-              <button className='read-more sg-btn'>Read More</button>
+              <button className='read-more sg-btn'onClick={event =>  window.location.href='sg-message'}>Read More</button>
         </div>    
     </div>
     <div className='parent'>

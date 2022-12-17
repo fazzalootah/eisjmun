@@ -1,0 +1,259 @@
+
+
+.container h4{
+    width: 200px;
+height: 70px;
+text-align: center;
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 25px;
+letter-spacing: 0.15px;
+
+color: #000000;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 25px;
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 25px;
+letter-spacing: 0.15px;
+color: #000000;
+padding-bottom: 25px;
+padding-top: 25px;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+}
+
+.ccard{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 15px;
+gap: 20px;
+background: #FFFFFF;
+border: 2px solid #000000;
+width:232px;
+height: 300px;
+}
+
+.combo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.img-size{
+    width: 200px;
+height: 165.59px;
+}
+
+.com-name{
+width: 200px;
+height: 70px;
+text-align: center;
+}
+
+#ecosoc{
+width: 200px;
+height: 165.59px;    
+}
+
+#eu{
+width: 200px;
+height: 127px;
+}
+
+#ga1{
+width: 225px;
+height: 182px;
+}
+
+#g20{
+width: 245px;
+height: 182px;
+}
+
+#hsc{
+width: 200px;
+height: 182.01px;
+}
+
+#hrc{
+    width: 200px;
+    height: 182.01px;
+}
+
+#interpol{ 
+    width: 200px;
+height: 182.01px;
+}
+
+#jcc{
+    width: 200px;
+    height: 182.01px;
+}
+
+#nsns{
+    width: 187px;
+    height: 171.1px;
+}
+
+#nato{
+    width: 194px;
+    height: 182px;
+}
+
+#nss{
+    width: 200px;
+height: 182.01px;
+}
+
+#sc{
+    width: 181px;
+height: 182px;
+}
+
+#ga3{
+    width: 200px;
+height: 167px;
+}
+
+#unodc{
+    width: 200px;
+    height: 148.01px;
+}
+
+#wef{
+    width: 250px;
+    height: 167px;    
+}
+
+
+#who{
+width: 200px;
+height: 176px;
+}
+    
+#yc{
+width: 166.5px;
+height: 140.25px;
+}
+
+.row-last{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-bottom: 0px;
+gap: 40px;
+}
+
+.ics{
+width: 150px;
+height: 70px;
+background: #000000;
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.5px;
+color: #fff;
+border: none;
+}
+
+.loc{
+
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 62px;
+    padding: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+@media (min-width:1024px) {
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            font-family: 'Futura';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 25px;
+            letter-spacing: 0.15px;
+            color: #000000;
+            }
+        
+        .combo{
+            display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 25px;
+        }
+    }
+
+@media (max-width: 490px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            font-family: 'Futura';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 25px;
+            letter-spacing: 0.15px;
+            color: #000000;
+            }
+        
+        .combo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+}

@@ -35,9 +35,11 @@ function Team() {
   };
 
   return (
+    <>
     <div className='parent-div'>
       <h2 className='sg-h2'>Secretariat Team</h2>
       <div className='team-div'>
+        <div className='tmpo'>
         <div className='team-member-parent'>
           <div className='team-member-child'>
           <img src={tejal} alt='Tejal' />
@@ -72,7 +74,10 @@ function Team() {
         </div>
           </div>
         </div>
+        </div>
 
+
+        <div className='tmpo2'>
         <div className='team-member-parent'>
           <div className='team-member-child'>
           <img src={alex} alt='alex' />
@@ -92,6 +97,7 @@ function Team() {
           </div>
         </div>
 
+        
         <div className='team-member-parent'>
           <div className='team-member-child'>
           <img src={rosha} alt='Rosha' />
@@ -109,8 +115,9 @@ function Team() {
         )}
         </div>
           </div>
+        </div>       
         </div>
-          
+
         <div className='team-member-parent'>
           <div className='team-member-child'>
           <img src={amani} alt='amani' />
@@ -129,12 +136,11 @@ function Team() {
         </div>
           </div>
         </div>
-
+        </div>
 
         </div>
         <h2 className='oet'>Our Executive Team is in the Works!</h2>
-
-    </div>
+</>
   )
 }
 

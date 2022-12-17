@@ -14,8 +14,8 @@ import Tiktok from './img/tiktok.png';
 import Messagefromsg from './components/messagefromsg/messagefromsg';
 import './footer.css'
 
-
 function App() {
+
   return (
   <Router>
     <div>
@@ -32,7 +32,7 @@ function App() {
         <a className="futuramednav"> <Link to="/team">Our Team</Link></a>
         <a className="futuramednav"> <Link to="/committees">Committees</Link></a>
         <a className="futuramednav"> <Link to="/contact">Contact Us</Link></a>
-        <a className="futuramednav"> <Link to="/register">Register</Link></a>
+        {/* <a className="futuramednav"> <Link to="/register">Register</Link></a> */}
     </div>
     </div>
     </div>
@@ -55,8 +55,14 @@ function App() {
       </div>
             <p className='copyright'>© Copyright 2023 EISJMUN. All rights reserved.</p>
             <div className='footer-child-right'>
-            <img src={Instagram} alt='instagram' />
+            <a href='https://instagram.com/eisjmun'>
+            <img src={Instagram} alt='instagram'/>
+            </a>
+
+            <a href='https://tiktok.com/@eisjmun'>
             <img src={Tiktok} alt='tiktok' />
+            </a>
+
             </div>
         </div>
     </div>   
