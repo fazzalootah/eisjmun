@@ -1,0 +1,53 @@
+.navBar {
+    position: relative;
+    order: 1;
+    width: 20%;
+float: right;
+}
+  
+  .navBar button {
+    position: fixed;
+    z-index: 10;
+    right: 21%;
+    cursor: pointer;
+  }
+  
+  .menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background:#C21D22;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+  }
+  
+ .navBar .hamburger-react{
+    margin-top: 10%;
+  }
+
+  .menuNav.showMenu {
+    width: 100%;
+  }
+  
+ .navBar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .menuNav li:first-child {
+    margin-top: 7rem;
+  }
+
+  @media only screen and (min-width:601px) {
+    .navBar {
+display: none;
+    }
+}

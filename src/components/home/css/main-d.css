@@ -1,0 +1,94 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/03.png);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    }
+    
+    .mainchild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    .futuramed{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 62px;
+    }
+    
+    .futurasub{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 31px;
+    }
+    
+    .mainsub{
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 0px;
+    }
+    
+    .logo-m{
+    width: 225px;
+    height: 225px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .main-h2{
+    color: #FFFFFF;
+    margin: 0;
+    flex: none;
+    text-align: center;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    .regbtn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #C21D22;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Futura';
+    }
+    .regbtn:hover{
+        background: #C21D22;
+    }
+    
+    

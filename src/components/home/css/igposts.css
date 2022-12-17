@@ -1,0 +1,49 @@
+.header{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 44px;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+    }
+    
+    .igp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    gap: 15px;
+    width: 100%;
+    background: #C21D22;
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 1;
+    }
+    
+    .igpost1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    }
+    
+    @media (max-width: 1023px) {
+        .igpost1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            }
+    
+        
+    }

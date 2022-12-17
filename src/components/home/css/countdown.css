@@ -1,0 +1,167 @@
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #000000;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.title{
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.futuratitle{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 62px;
+}
+
+.futuracdn{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+}
+
+.countdown-timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cdntmr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    flex: none;
+    order: 0;
+    width: 100%;
+    flex-grow: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media (max-width:768px) {
+    .futuracdn{
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .countdown-timer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
+
+@media (max-width:650px){
+    .futuracdn{
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: 0.15px;        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width:425px){
+    .cdntmr{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5%;
+        flex: none;
+        order: 0;
+        width: 100%;
+        flex-grow: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+@media (max-width:375px) {
+    .cdntmr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        order: 0;
+        width: 100%;
+        flex-grow: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .futuracdn{
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 44px;
+        letter-spacing: 0.0025em;      
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .countdown-timer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}

@@ -1,0 +1,63 @@
+.parent{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-bottom: 1px solid #000000;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    .child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    text-align: center;
+    }
+    
+    .wim{
+    width: 100%;
+    height: 44px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 44px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    .waffle{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    
