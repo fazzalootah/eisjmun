@@ -27,7 +27,6 @@ return (
         
             <Link to="/contact">Contact Us</Link>
         
-            <Link to="/register">Register</Link>
       </div>
       <Hamburger toggled={navbarOpen} toggle={setNavbarOpen} onClick={handleToggle}  color="rgb(0, 0, 0)" />
 
