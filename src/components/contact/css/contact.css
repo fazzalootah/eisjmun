@@ -245,7 +245,7 @@ align-items: flex-start;
 padding: 0px;
 gap: 8px;
 }
-        
+
 .nem-mes{
 box-sizing: border-box;
 display: flex;
@@ -349,7 +349,7 @@ align-items: flex-start;
 padding: 0px;
 gap: 8px;
 }
-        
+
 .nem-mes{
 box-sizing: border-box;
 display: flex;
@@ -453,7 +453,7 @@ align-items: flex-start;
 padding: 0px;
 gap: 8px;
 }
-        
+
 .nem-mes{
 box-sizing: border-box;
 display: flex;
@@ -557,7 +557,7 @@ align-items: flex-start;
 padding: 0px;
 gap: 8px;
 }
-        
+
 .nem-mes{
 box-sizing: border-box;
 display: flex;
@@ -596,105 +596,105 @@ color: #fff;
 }
 
 @media (max-width:320px) {
-    .nem-info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        gap: 10px;
-        }
-        
-        .nem-e-n{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        gap: 25px;
-        }
-        
-        .nem-n{
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 11px;
-        width: 140px;
-        background: #FFFFFF;
-        border: 2.5px solid #000000;
-        }
-        
-        .nem-n::placeholder{
-        font-family: 'Futura';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 21px;
-        color: #9f9f9f;
-        }
-        
-        .nem-e{
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 11px;
-        width: 140px;
-        background: #FFFFFF;
-        border: 2.5px solid #000000;
-        }
-        
-        .nem-e::placeholder{
-        font-family: 'Futura';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 21px;
-        color: #9f9f9f;
-        }
-        
-        .nem-m{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
-        }
-                
-        .nem-mes{
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 11px;
-        width: 305px;
-        height: 200px;
-        background: #FFFFFF;
-        border: 2.5px solid #000000;
-        }
-        
-        .nem-mes::placeholder{
-        font-family: 'Futura';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 21px;
-        color: #9f9f9f;
-        }
-        
-        .nem-s{
-        background: #C21D22;
-        border:2.5px solid #000;
-        box-sizing: border-box;
-        width: 305px;
-        height: 50px;
-        font-family: 'Futura';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 19px;
-        letter-spacing: 0.0125em;
-        color: #fff;
-        }
+.nem-info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+}
+
+.nem-e-n{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 25px;
+}
+
+.nem-n{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 11px;
+width: 140px;
+background: #FFFFFF;
+border: 2.5px solid #000000;
+}
+
+.nem-n::placeholder{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #9f9f9f;
+}
+
+.nem-e{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 11px;
+width: 140px;
+background: #FFFFFF;
+border: 2.5px solid #000000;
+}
+
+.nem-e::placeholder{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #9f9f9f;
+}
+
+.nem-m{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+}
+
+.nem-mes{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 11px;
+width: 305px;
+height: 200px;
+background: #FFFFFF;
+border: 2.5px solid #000000;
+}
+
+.nem-mes::placeholder{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #9f9f9f;
+}
+
+.nem-s{
+background: #C21D22;
+border:2.5px solid #000;
+box-sizing: border-box;
+width: 305px;
+height: 50px;
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.0125em;
+color: #fff;
+}
 }
