@@ -42,9 +42,20 @@ color: #C21D22;
     color: #000000;
 }
 
+.msg-fu-s{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    text-align: center;
+}
+
 @media (max-width:1024px) {
     .tejal{
-        width: 60%;
+        width: 90%;
         
         }
 }
@@ -69,3 +80,4 @@ color: #C21D22;
             width: 90%;
             }
 }
+

@@ -19,8 +19,9 @@ The complications of the COVID-19 pandemic were a block on not just education, b
 It goes without saying that the UAE has been exceptional in regulating and incentivizing the prevention of the spread of COVID-19. We are all extremely grateful to be in a position in which we can host EISJMUN 2023 the way it used to be; a fresh look, new committees, and an experience that you will forever cherish.
 
 With a conference bigger and better than ever before, I once again cordially welcome you to EISJMUN 2023. Our team is thrilled to provide our attendees with an unforgettable Model United Nations experience; I await to see you at the conference.
-
-Tejal Gupta
+</p>
+<p className='msg-fu-s'>
+--- Tejal Gupta
 Secretary General, EISJMUN 2023
       </p>
    </div>
