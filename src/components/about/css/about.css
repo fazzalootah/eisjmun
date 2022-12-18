@@ -1,129 +1,15 @@
-.abouteisj{
-    box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 100px;
-}
-
-.ab-col-left{
-    width: 536px;
-height: 510px;
-
-}
-
-.ab-col-right{
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 10px;
-
-width: 864px;
-height: 497px;
-}
-
-.abouttexttitle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-
-    font-family: 'Futura';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 47px;
-    line-height: 62px;
-    
-    /* black */
-    
-    color: #000000;
-}
-
-.abouttextdesc{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 25px 0px;
-gap: 100px;
-
-font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 19px;
-line-height: 25px;
-letter-spacing: 0.15px;
-}
-
-.eisjmunhist{
-    box-sizing: border-box;
-
-/* Auto layout */
-
+.his-e-o{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 50px;
 gap: 50px;
-
+background: #FFFFFF;
 }
 
-.eisjmunhistexttitle{
-    font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 47px;
-line-height: 62px;
-text-align: center;
-
-/* black */
-
-color: #000000;
-}
-
-.eisjmunhistextdesc{
-    font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 19px;
-line-height: 25px;
-text-align: center;
-letter-spacing: 0.15px;
-}
-
-.eisjmuntheme{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    gap: 100px;
-
-    background: #C21D22;
-border: 1px solid #000000;
-}
-
-.theme-texttitle{
-    font-family: 'Futura';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 47px;
-    line-height: 62px;
-    
-    /* white */
-    
-    color: #FFFFFF;
-
-    display: flex;
+.his-e-o-t{
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -131,23 +17,132 @@ padding: 0px;
 gap: 10px;
 }
 
-.theme-textdesc{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 0px;
-    gap: 100px;
-
-    font-family: 'Futura';
+.his-e-t{
+font-family: 'Futura';
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
-line-height: 25px;
+font-size: 47px;
+line-height: 62px;
 text-align: center;
-letter-spacing: 0.15px;
-
-/* white */
-
-color: #FFFFFF;
+color: #000000;
 }
+
+.his-e-p{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #000000;
+}
+
+.ei-t{
+background: #C21D22;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 50px;
+gap: 35px;
+}
+
+.ei-t-tex{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+width: 680px;
+}
+
+.ei-t-ti{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 62px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.eit-th{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.ching{
+    width: 640px;
+}
+
+.wyn{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 10px;
+}
+
+.wyn-t{
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 62px;
+text-align: center;
+color: #000000;
+}
+
+.wyn-pa{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-align: center;
+}
+
+.wyn-b{
+    margin:10px ;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+
+}
+
+@media (max-width:800px) {
+    .ei-t{
+        background: #C21D22;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        gap: 35px;
+        }
+        .ei-t-tex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 10px;
+            width: auto;
+            }
+            .ching{
+                width: 100%;
+            }
+            
+}
+
